@@ -38,7 +38,7 @@
       contain: style layout inline-size;
     }
 
-    /* @container (min-width: 600px) {
+    @container (min-width: 600px) {
       .flix-img-link__img-wrapper {
         height: 600px;
       }
@@ -64,12 +64,12 @@
         color: white;
         font-size: 250%;
       }
-    } */
+    }
   </style>
 </head>
 <body>
-  <main>
-    <div class="container container-1">
+  <main class="flix-grid">
+    <div class="container container-1 flix-col-4">
       <a href="#" class="flix-img-link">
         <div class="flix-img-link__img-wrapper">
             <img class="flix-img-link__img" alt="Image link placeholder image" src="https://images.unsplash.com/photo-1591464631379-11eae34b870a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1049&q=80"/>
@@ -98,7 +98,7 @@
         </div>
       </a>
     </div>
-    <!-- <div class="container container-2">
+    <div class="container container-2 flix-col-8">
       <a href="#" class="flix-img-link">
         <div class="flix-img-link__img-wrapper">
             <img class="flix-img-link__img" alt="Image link placeholder image" src="https://images.unsplash.com/photo-1591464631379-11eae34b870a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1049&q=80"/>
@@ -126,7 +126,7 @@
             <p class="flix-text flix-space-flush-bottom">from $22.00</p>
         </div>
       </a>
-    </div> -->
+    </div>
   </main>
 
 
